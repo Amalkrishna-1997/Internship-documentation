@@ -26,7 +26,7 @@
 | Name | Role | Email | LinkedIn |
 |------|------|-------|----------|
 | Amalkrishna O U | Team Lead/Developer   | amalkrishna34@gmail.com   | https://www.linkedin.com/in/amal-krishna-629168338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app |
-| Jaims Aldrin    | Developer/Researcher  | jaimsaldrin2211@gmail.com | |
+| Jaims Aldrin    | Developer/Researcher  | jaimsaldrin2211@gmail.com | https://www.linkedin.com/in/jaims-aldrin-264169338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app |
 
 
 
@@ -105,13 +105,7 @@ Step 4: Select individual equipment
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
-```bash
-# List required software, libraries, or hardware
-- Python 3.x
-- [Required libraries]
-- [Hardware requirements if applicable]
-```
-
+ESP aruduino IDE
 ### Installation Steps
 ```bash
 # Clone the repository
@@ -153,14 +147,14 @@ project-name/
 ## 🎓 Learning Outcomes
 
 ### Technical Skills Gained
-- [Skill 1 - e.g., Machine Learning model development]
-- [Skill 2 - e.g., Embedded programming]
-- [Skill 3 - e.g., Data analysis and visualization]
+KICad PCB layout making and circuit designing
+Cascadind od multi equipments by ESP 32
+ESP 32 coding
 
 ### Tools & Technologies Mastered
-- [Tool 1]
-- [Tool 2]
-- [Tool 3]
+KICAD
+ESP
+ARUDUINO IDE
 
 ---
 
@@ -168,17 +162,16 @@ project-name/
 
 Special thanks to the **Ecocee team** for providing guidance and support throughout this internship project.
 
-**Mentor:** [Mentor Name]  
-**Team Number:** [Team #XX]  
-**Team Size:** [Number of team members]
+**Mentor:** SREERAJ V RAEJSH 
+**Team Number:** Team 1 
+**Team Size:** [2
 
 ### 👨‍💼 Team Contributions
 | Team Member | Primary Contributions |
 |-------------|----------------------|
-| [Member 1 Name] | [e.g., Project architecture, ML model development] |
-| [Member 2 Name] | [e.g., Data preprocessing, testing] |
-| [Member 3 Name] | [e.g., UI/UX design, documentation] |
-| [Member 4 Name] | [e.g., Hardware integration, debugging] |
+| AMALKRISHNA | PCB DESIGNING ,CODING |
+| [JAIMES ALDRIN | PCB DESIGNING ,CODING |
+
 
 ---
 
@@ -191,12 +184,9 @@ Special thanks to the **Ecocee team** for providing guidance and support through
 ### 👥 Team Contacts
 | Team Member | Email | LinkedIn | GitHub |
 |-------------|-------|----------|--------|
-| [Member 1 Name] | [email@example.com] | [LinkedIn] | [GitHub Profile] |
-| [Member 2 Name] | [email@example.com] | [LinkedIn] | [GitHub Profile] |
-| [Member 3 Name] | [email@example.com] | [LinkedIn] | [GitHub Profile] |
-| [Member 4 Name] | [email@example.com] | [LinkedIn] | [GitHub Profile] |
 
----
+| Amalkrishna O U | Team Lead/Developer   | amalkrishna34@gmail.com   | https://www.linkedin.com/in/amal-krishna-629168338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app |
+| Jaims Aldrin    | Developer/Researcher  | jaimsaldrin2211@gmail.com | https://www.linkedin.com/in/jaims-aldrin-264169338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app|
 
 <div align="center">
   
