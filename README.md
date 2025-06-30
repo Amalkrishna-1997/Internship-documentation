@@ -17,42 +17,43 @@
 
 ## 📋 Project Overview
 
-**Batch:** [Your Batch - e.g., Summer 2024, Winter 2025]  
-**Team Number:** [Team #XX]  
-**Internship Position:** [AI/ML Intern | Embedded Developer Intern | Other]  
-**Duration:** [Start Date - End Date]
+**Batch:** July 2025
+**Team Number:** Team 01
+**Internship Position:** Embedded Developer Intern
+**Duration:** 12/06/2025 to 30/06/2025
 
 ### 👥 Team Members
 | Name | Role | Email | LinkedIn |
 |------|------|-------|----------|
-| [Member 1 Name] | [Team Lead/Developer] | [email@example.com] | [LinkedIn Profile] |
-| [Member 2 Name] | [Developer/Researcher] | [email@example.com] | [LinkedIn Profile] |
-| [Member 3 Name] | [Developer/Analyst] | [email@example.com] | [LinkedIn Profile] |
-| [Member 4 Name] | [Developer/Tester] | [email@example.com] | [LinkedIn Profile] |
+| Amalkrishna O U | Team Lead/Developer   | amalkrishna34@gmail.com   | https://www.linkedin.com/in/amal-krishna-629168338?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app |
+| Jaims Aldrin    | Developer/Researcher  | jaimsaldrin2211@gmail.com | |
 
-> **Note:** Add or remove rows as needed based on your team size
+
 
 ### 🎯 Description
-[Provide a clear and concise description of your project. Explain what problem it solves, what technologies are used, and what makes it unique. This should be 2-3 sentences that give readers a quick understanding of your work.]
+We invented PLC (Programable Logic Circuit) that used for industry for automation of equipment and machinaries that can use 12 Volt and 24 Volt of 32 individual machinaries .Here we use PWM for moter driving, All equipments are High power approx.20A to 50A power consuming devices.
+
+In this project splite into 3 parts
+1, Control Unit (ESP 32 Microcontroller,Switch selector)
+2, PWM
+3, High Power SMPS (20A -50A)( Optional by Custumization)
+
+here control unit cascaded with 4 X 74HC595 ic for controling more equipment by less pin of microcontroller,
+and a High power SMPS circuit either 12 Volt or 24 Volt for individual 32 SMPS by custumization
+AND PWM for motor and light intencity controling
 
 ---
 
 ## 🔧 Technical Specifications
 
-### **For AI/ML Intern Projects:**
-- **Programming Languages:** Python, R, Julia, etc.
-- **ML Frameworks:** TensorFlow, PyTorch, Scikit-learn, etc.
-- **Data Processing:** Pandas, NumPy, OpenCV, etc.
-- **Model Type:** [Classification/Regression/NLP/Computer Vision/etc.]
-- **Dataset:** [Brief description of data used]
+
 
 ### **For Embedded Developer Intern Projects:**
-- **Microcontroller/Platform:** Arduino, Raspberry Pi, ESP32, STM32, etc.
-- **Programming Languages:** C/C++, Python, Assembly, etc.
-- **Communication Protocols:** I2C, SPI, UART, WiFi, Bluetooth, etc.
-- **Sensors/Components:** [List of hardware components used]
-- **Development Environment:** Arduino IDE, PlatformIO, Keil, etc.
-
+- **Microcontroller/Platform:**  ESP32
+- **Programming Languages:** C/C++
+- **Communication Protocols:** I2C, SPI, UART, WiFi, Bluetooth,
+- **Sensors/Components:** 74HC595
+- **Development Environment:** Arduino IDE
 ---
 
 ## ⚙️ Project Working
@@ -61,19 +62,18 @@
 [Provide a high-level overview of how your project works. You can include diagrams, flowcharts, or system architecture images here.]
 
 ### Key Components
-1. **Component 1:** [Brief description]
-2. **Component 2:** [Brief description]
-3. **Component 3:** [Brief description]
-
+1. **Component 1:** Multi equipment contolling by cascading 74HC595 by n numberes, each IC can control 8 equiments
+2. **Component 2:** Individual SMPS used for Working safely and high efficiency,
+3. **Component 3:** Seperrate PWM circuit provided for esp proper working and easy management for maintanance
 ### Algorithm/Logic Flow
 ```
-Step 1: [Description]
+Step 1: Start
    ↓
-Step 2: [Description]
+Step 2: Check the database and select which equipment to to activate
    ↓
-Step 3: [Description]
+Step 3: Create an binary code for this value and write to 74HC595
    ↓
-Result: [Final output/outcome]
+Step 4: Select individual equipment
 ```
 
 ---
@@ -81,21 +81,16 @@ Result: [Final output/outcome]
 ## 🚀 Applications & Use Cases
 
 ### Primary Applications
-- **Application 1:** [Description of use case]
-- **Application 2:** [Description of use case]
-- **Application 3:** [Description of use case]
+- **Application 1:** Industrail Purposes
+- **Application 2:** Multi tasking selector
+- **Application 3:** Robotics parts
 
 ### Future Scope
-- [Potential enhancement 1]
-- [Potential enhancement 2]
-- [Scalability considerations]
 
----
 
 ## 📱 Demo & Results
 
 ### Screenshots/Images
-[Add screenshots, demo images, or results visualizations here]
 
 ### Performance Metrics
 | Metric | Value |
